@@ -27,7 +27,7 @@ func Register(name string, swagger Swagger) {
 	}
 
 	if swag != nil {
-		panic("Register called twice for swag: " + name)
+		panic("Register called twice for swag:1 " + name)
 	}
 	swag = swagger
 }
